@@ -41,7 +41,7 @@ public class ShopCommand extends Command {
     public boolean execute(CommandSender sender, String[] arguments) {
         //Disabled - GeoMC
         return false;
-        Player player = (Player) sender;
+        /*Player player = (Player) sender;
         User user = IridiumSkyblockAPI.getInstance().getUser(player);
         if (!user.getIsland().isPresent()) {
             player.sendMessage(StringUtils.color(IridiumSkyblock.getInstance().getMessages().noIsland.replace("%prefix%", IridiumSkyblock.getInstance().getConfiguration().prefix)));
@@ -62,8 +62,8 @@ public class ShopCommand extends Command {
 
             player.openInventory(new ShopCategoryGUI(category.get(), player.getOpenInventory().getTopInventory()).getInventory());
         }
-
-        return true;
+*/
+        //return true;
     }
 
     /**

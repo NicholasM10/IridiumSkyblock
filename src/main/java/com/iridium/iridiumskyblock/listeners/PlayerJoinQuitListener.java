@@ -27,6 +27,6 @@ public class PlayerJoinQuitListener implements Listener {
         );
 
 
-        
+
     }
 }
