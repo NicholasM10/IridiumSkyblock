@@ -39,6 +39,8 @@ public class ShopCommand extends Command {
      */
     @Override
     public boolean execute(CommandSender sender, String[] arguments) {
+        //Disabled - GeoMC
+        return false;
         Player player = (Player) sender;
         User user = IridiumSkyblockAPI.getInstance().getUser(player);
         if (!user.getIsland().isPresent()) {
